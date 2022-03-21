@@ -1,0 +1,17 @@
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:test #  바뀐부분
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        # show_sql: true
+#        format_sql: true
+# 위 부분 다 없어도 알아서 스프링이 메모리 db 즉 라이브러리를 돌린다.
+logging.level:
+  org.hibernate.SQL: debug
+#  org.hibernate.type: trace
