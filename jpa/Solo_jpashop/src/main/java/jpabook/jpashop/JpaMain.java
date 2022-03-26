@@ -1,6 +1,8 @@
 package jpabook.jpashop;
 
 
+import jpabook.jpashop.domain.Member;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -16,6 +18,7 @@ public class JpaMain {
         tx.begin(); // 트랜잭션은 db연결하는 것이라고 보면된다.
 
         try{
+
 
             tx.commit();
 
